@@ -403,3 +403,24 @@ nav a {
     justify-content: center;
     padding-left: 20px;
 }
+/* menu section */
+
+.menu-item {
+    width: 337px;
+    height: 399px;
+    background-color: white;
+}
+.menu-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1205px;
+    margin: 0 auto;
+    padding-left: 3em
+}
+.menu-item img {
+    width: 100%;
+}
+.menu-subtitle {
+    padding: 15px;
+}
